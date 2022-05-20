@@ -1,0 +1,397 @@
+<!=Doctype HTML>
+	<!-- Es una pagina que tiene la finanlidad informativa, es un proyecto por parte de la Institución -->
+	<!-- En esta primera parte apareceran los temas de la unidad 1, tendra una presentacion agradable al usuario, sin dejar de ser forrmal -->
+	<!-- Autor: Rodrigo Zavala Luna -->
+<html>
+	<head>
+		<title>Unidad 2</title>
+		<link rel = "stylesheet" type = "text/css"
+			media = "screen" href = "../CSS/Style.css"/>
+		<meta charset=”utf-8″ /> 
+		<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″ />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Akshar&family=Bebas+Neue&family=Concert+One&family=Fredoka+One&family=Passion+One&family=Staatliches&display=swap" rel="stylesheet">
+	</head>
+	<!-- Empezamos con el cuerpo de nuestra pagina web. -->
+	<body>
+		<!-- Contiene nuestro titulo -->
+		<div class = "titUnidad1">
+			<p class = "titUnidad1">Arquitectura de Computadoras</p>
+		</div>
+		<!-- Contiene nuestra barra de navegacion de las unidades -->
+		<div class = "navegacion">
+			<table class = "unidades">
+				<tr>
+					<td><a href = "">Inicio</a></td>
+					<td><a href = "../Index.html">Unidad 1</a></td>
+					<td><a href = "Unidad3.html">Unidad 3</a></td>
+					<td><a href = "Unidad4.html">Unidad 4</a></td>
+				</tr>
+			</table>
+		</div><br>
+		<!-- Contiene nuestra tabla de navegacion de los Temas de la Unidad. -->
+		<div class = "subtemas">
+			<table class = "subtemas">
+			<thead>
+				<!==Tr son los renglones de la tabla, en este caso solo es 1 ==>
+				<tr>
+					<th>Temas Unidad 2</th>
+				</tr>
+			</thead>
+			<tr>
+				<!==La etiqueta a href, la uso para poder ir en la misma pagina a la zona donde se encuentre este titulo
+					se utilizan comillas y signo numerico, para identificarlo en el texto==>
+				<td><a href ="#Uno">Organización del Procesador</a></td>
+			</tr>
+			<tr>
+				<td><a href ="#Dos">Estructura de Registros</a></td>
+			</tr>
+			<tr>
+				<td><a href ="#Tres">El ciclón de Instrucción</a></td>
+			</tr>
+			<tr>
+				<td><a href ="#Cuatro">Casos de estudio de CPU reales</a></td>
+			</tr>
+			<tr>
+				<td><a href ="#Redes">Redes Sociales</a></td>
+			</tr>
+			</table>
+		</div><br>
+		<div class = "inicio">
+			<!-- Es un titulo, que indica en la unidad en la que estamos. -->
+			<p class = "unidad1">
+				Unidad 2
+			</p>
+			<!-- Es una introduccion del contenido de la unidad. -->
+			<p>
+			</p>
+			<iframe class = "com" src="https://www.youtube.com/embed/pTvfhxtgPcc" title="YouTube video player" frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div><br>
+		<div class = "informacion">
+			<!-- Titulo del tema -->
+			<p class = "temas" id = "Uno">
+				Organización del Procesador
+			</p>
+			<!-- <div> -->
+				<!-- Titulo de los Subtemas -->
+				<p class = "info">
+					Debido a que el procesador desarrolla sus tareas en función
+					de las instrucciones secuenciadas que ha organizado e
+					implementado el programador, es necesario que el sistema
+					interprete cada tipo instrucción para actuar en consecuencia.
+					Es lo que se conoce también como decodificación de la
+					instrucción.
+					Es el centro lógico de la computadora ya que los recursos de
+					una computadora son administrados en la unidad de control,
+					es esta unidad la que se encarga de dirigir el flujo de datos.
+					Las instrucciones del CPU se encuentran incorporadas en la
+					unidad de control, estas instrucciones o conjunto de
+					instrucciones enumeran todas las operaciones que un CPU
+					puede realizar.<br>
+					Las características más importantes a considerar al escoger
+					un CPU en una aplicación, son:
+					Modelo del programador (Conjunto de registros que el
+					programador puede utilizar), forman el modelo mental del
+					CPU que el programador utiliza al programar en
+					ensamblador.
+					Conjunto de instrucciones que puede ejecutar el CPU.
+					Los modos de direccionamiento que pueden usarse para
+					obtener los operandos de las instrucciones.
+					Ciclo de instrucción (el conjunto de pasos que realiza el CPU
+					para procesar cada instrucción)
+					Buses de interconexión, usados para que el CPU lea y
+					escriba a la memoria.
+					Dispositivos de entrada y salida.
+				</p>
+					<img class = "gifs" src = "https://media.giphy.com/media/BcQSiIDxjqxyddOlXw/giphy-downsized-large.gif">	
+					<img class = "gif" src = "../Media/Img/1.jpg">
+				<p class = "info">
+				
+				</p>
+				<p id = "Dos" class = "Temas">
+					Estructura de Registros
+				</p>
+				<p class = "info">
+					Se emplean para controlar las instrucciones en ejecución, manejar direccionamiento de memoria y propiciar la capacidad aritmética.
+					Los registros vienen de tres tipos: datos, direcciones e índice, que tiene lugar en casi todos los aspectos de la operación del CPU. El tamaño de un registro depende del 
+					CPU; los más simples tienen registros que aceptan 8 o 16 bits de datos y los más complejos tienen registros de 32, 48 o 64 bits.<br>
+					Cada procesador tiene varias asignaciones o tareas que debe
+					de realizar para el manejo de la información.
+					La información es recibida generalmente en código binario,
+					procedente de las aplicaciones para, después, procesarlos de
+					una forma determinada.
+					Digamos que el procesador traduce esos datos para que
+					nosotros, los usuarios, los entendamos.
+					Dentro de un microprocesador encontramos el registro de
+					información, cuya función es guardar de forma temporal los
+					datos a los que se accede frecuentemente.
+				</p>
+					<img class = "gif" src = "../Media/Img/registros.PNG">
+				<p class = "sub">
+					Registros Visibles para el Usuario
+				</p>
+				<p class = "info">
+					Registros visibles por el usuario: permiten al programador de lenguaje máquina o deensamblador minimizar 
+					las referencias a memoria principal por medio de la optimización del usode registros.Registros de control 
+					y de estado: son utilizados por la unidad de control para controlar elfuncionamiento del procesador y por programas 
+					privilegiados del sistema operativo para controlarla ejecución de programas.<br>
+					REGISTROS VISIBLES POR EL USUARIO<br>
+					Un registro visible por el usuario es aquél que puede ser referenciado por medio dellenguaje máquina 
+					que ejecuta el procesador. Podemos clasificarlos en las siguientes categorías:Uso general: pueden ser 
+					asignados por el programador a diversas funciones. A veces, suuso dentro del repertorio de instrucciones 
+					es ortogonal a la operación. Es decir, cualquier registrode uso general puede contener el operando para 
+					cualquier código de operación. sin embargo,existen restricciones.Por ejemplo, puede haber registros específicos 
+					para operaciones en comaflotante y para operaciones con la pila.<br>
+				
+					Datos: pueden usarse únicamente para contener datos y no se pueden emplear enel cálculo de la 
+					dirección de un operando.Direcciones: pueden ser de uso más O menos general, o pueden estar dedicados 
+					a unmodo de direccionamiento particular. Entre otros, se pueden citar los siguientes ejemplos:<br>
+				
+					Punteros de segmento: en una máquina con direccionamiento segmentado unregistro de segmento contiene la 
+					dirección de la base del segmento. Puede habermúltiples registros: por ejemplo uno para el sistema operativo 
+					y otro para elproceso actual.<br>
+					
+					Registros índice: se usan para direccionamiento indexado y pueden serautoindexados.<br>
+					
+					Puntero de pila: si existe direccionamiento a pila visible por el usuario,normalmente hay un registro 
+					dedicado que apunta a la cabecera de ésta. Ellopermite un direccionamiento implícito; es decir, apilar 
+					(push), desapilar (pop) yotras instrucciones de la pila no necesitan contener un operando explícitoreferente a ella.
+				</p>
+					<img class = "gif" src = "https://media.giphy.com/media/QXaSadUXCKbAZD2ANH/giphy-downsized-large.gif">
+					<img class = "gifs" src = "https://media.giphy.com/media/f1UH5LwVuWucM/giphy.gif">
+				<p class = "info">
+				
+				</p>
+				<p class = "sub">
+					Registros de Control y de Estados
+				</p>
+				<p class = "info">
+					Hay diversos registros del procesador que se
+					emplean para controlar su funcionamiento. La mayoria de ellos, en la mayor parte de las maquinas
+					no son visibles por el usuario, pero alguno de ellos
+					puede ser visible por ciertas instrucciones maquina
+					ejecutadas en un modo privilegiado o de sistema
+					operativo.
+					Naturalmente, diferentes maquinas tendran distinta organizacion de registros y usarian distinta terminologia. Son esenciales cuatro registros para la
+					ejecucion de una instruccion:<br>
+					Contador de programa (Program
+					Counter- PC): Contiene la direccion de la
+					instrucci´on a buscar<br>
+					Registro de instruccion (Instruction
+					Register- IR): Contiene la instruccion buscada mas recientemente
+					Registro de direccion de memoria (Memory Address Register- MAR) Contiene
+					la direccion de una posicion de memoria<br>
+					Registro amortiguador de memoria (Memory Buffer Register - MBR) Contiene el
+					dato a escribir en una posicion de memoria o
+					el dato contenido en una posicion de memoria
+					leido mas recientemente.
+				</p>
+					<img class = "gif" src = "https://media.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif">
+					<img class = "gif" src = "../Media/Img/Capturasas.PNG">
+				<p class = "info">
+				
+				</p>
+				<p id = "Tres" class = "temas">
+					El ciclón de instrucción
+				</p>
+				<p class = "sub">
+					Ciclo Fetch
+				</p>
+				<p class = "info">
+					Los procesadores no son diferentes desde cierto punto de vista a un motor de combustión, 
+					los cuales siempre realizan un proceso continuo de explosión del combustible en diferentes 
+					etapas, ya sean de 2 tiempos o de 4 tiempos.<br>
+					Fetch o Captación: En la que la instrucción es captada desde la memoria RAM y copiada a dentro del procesador.<br>
+					Decode o Descodificacion: En la que la instrucción previamente captada es descodificada y enviada 
+					a las unidades de ejecución<br>
+					Execute o Ejecución: Donde la instrucción es resuelta y el resultado escrito en los registros internos 
+					del procesador o en una dirección de memoria de la RAM<br>
+					Program Counter o Contador de Programa: El cual apunta a la siguiente línea de memoria donde se encuentra 
+					la siguiente instrucción del procesador. Se incrementa en 1 su valor cada vez que se termina un ciclo completo 
+					de instrucción o cuando una instrucción de salto cambia el valor del contador de programa.<br>
+					Memory Address Register o registro de direccionamiento de memoria: El MAR copia el contenido del PC y lo 
+					envía a la RAM a través de los pines de direccionamiento de la CPU, los cuales están cableados con los pines 
+					de direccionamiento de la propia memoria RAM.<br>
+					Memory Data Register o registro de datos a memoria : En el caso que la CPU tenga que realizar una lectura a 
+					memoria, lo que hace el MDR es copiar el contenido de esa dirección de memoria a un registro interno de la CPU, 
+					el cual es un registro temporal de paso antes de que su contenido sea copiado al Instruction Register.<br> 	
+				</p>	
+					<img class = "gif" src = "../Media/Img/Regiiss.PNG">	
+					<img class = "gifs" src = "../Media/Img/Ciclo.PNG">	
+				<p class = "info">
+					La segunda etapa: Decode<br>
+					Hay diferentes tipos de instrucciones y no todas hacen lo mismo, por lo que dependiendo del tipo de 
+					instrucción necesitamos saber hacía que unidades de ejecución se van a enviar y la manera más clásica de 
+					hacerlo es a través de lo que llamamos un descodificador, el cual toma cada instrucción, la divide internamente 
+					según el opcode o instrucción y el dato o la dirección de memoria donde se encuentra este.<br>
+
+					Por ejemplo en el diagrama de arriba tenemos el diagrama de un procesador de solo 8 instrucciones, las cuales 
+					se pueden codificar en solo 3 bits. Cada una de las instrucciones una vez descodificadas se envían a las 
+					diferentes unidades de ejecución que las resolverán.
+				</p>
+					<img class = "gifs" src = "../Media/Img/Decode.PNG">
+					<img class = "gif" src = "https://media.giphy.com/media/PTUK1MSNWmjt5p7VbL/giphy.gif">
+				<p class = "info">
+					
+				</p>
+				<p class = "sub">
+					Segmentación de Instrucciones
+				</p>
+				<p class = "info">
+					Segmentación: técnica de solapamiento de instrucciones
+					mediante la división de su ejecución en etapas o segmentos.
+					- Los segmentos están conectados entre sí cada uno al siguiente.
+					- Todos los segmentos proceden y progresan a la vez.
+					- La segmentación es transparente al programador.
+					Ciclo máquina: tiempo que tarda una instrucción en pasar de un
+					segmento al siguiente.
+					· Su duración viene dada por la duración de la etapa más
+					lenta.
+					· Normalmente, un ciclo máquina es un ciclo de reloj.
+					La segmentación incrementa la productividad de instrucciones
+					de la CPU, pero no disminuye el tiempo de ejecución de cada
+					instrucción:
+					· Las etapas no suelen estar perfectamente equilibradas.
+					· Gasto en el control de la segmentación.
+					pasos de la
+					segmentación.<br>
+					1) IF: búsqueda de la instrucción.<br>
+					2) ID: decodificación de la instrucción y búsqueda de
+					registros.<br>
+					3) EX: ejecución y cálculo de direcciones efectivas.<br>
+					4) MEM: acceso a memoria.<br>
+					5) WB: postescritura.<br>
+
+					RIESGOS DE LA SEGMENTACIÓN
+					- Riesgos estructurales: conflictos entre recursos.
+					- Riesgos por dependencia de datos entre instrucciones de la
+					cadena.
+					- Riesgos de control: modificaciones en la secuencia de ejecución
+					de instrucciones.
+					- Siempre es posible resolver una situación de riesgo mediante
+					una detención en la cadena de ejecución de instrucciones:
+					interbloqueo de la segmentación.
+				</p>
+					<img class = "gif" src = "../Media/Img/intro.PNG">
+					<img class = "gifs" src = "https://media.giphy.com/media/hriTuWJBisvwWPKTLM/giphy.gif">
+				<p class = "info">
+					
+				</p>
+				<p class = "sub">
+					Conjunto de Instrucciones
+				</p>
+				<p class = "info">
+					Un conjunto de instrucciones o repertorio de instrucciones, juego de instrucciones o ISA 
+					(del inglés Instruction Set Architecture, Arquitectura del Conjunto de Instrucciones) es 
+					una especificación que detalla las instrucciones que una CPU de un ordenador puede entender 
+					y ejecutar, o el conjunto de todos los comandos implementados por un diseño particular de una 
+					CPU. El término describe los aspectos del procesador generalmente visibles a un programador, 
+					incluyendo los tipos de datos nativos, las instrucciones, los registros, la arquitectura de memoria 
+					y las interrupciones, entre otros aspectos.<br>
+
+					Existe principalmente de 3 tipos: CISC (Complex Instruction Set Computer), RISC (Reduced 
+					Instruction Set Computer) y SISC (Specific Instruction Set Computer).<br>
+
+					La arquitectura del conjunto de instrucciones (ISA) se emplea a veces para distinguir 
+					este conjunto de características de la microarquitectura, que son los elementos y técnicas 
+					que se emplean para implementar el conjunto de instrucciones. Entre estos elementos se encuentras 
+					las microinstrucciones y los sistemas de caché.<br>
+
+					Procesadores con diferentes diseños internos pueden compartir un conjunto de instrucciones; 
+					por ejemplo el Intel Pentium y AMD Athlon implementan versiones casi idénticas del conjunto 
+					de instrucciones x86, aunque tienen diseños internos completamente opuestos.<br>
+				</p>
+					<img class = "gifs" src = "https://media.giphy.com/media/Byj66uNmDFfhfD5yQV/giphy.gif">
+					<img class = "gif" src = "https://media.giphy.com/media/ieOaDkaO7Wh9Zn0XDR/giphy.gif">
+				<p class = "info">
+					Implementacion del conjunto de intrucciones<br>
+					Cualquier conjunto de instrucciónes se puede implementar de varias maneras. 
+					Todas las maneras de implementar un conjunto de instrucciónes dan el mismo modelo programado, 
+					y todas pueden hacer funcionar los mismos ejecutables binarios. Las varias maneras de implementar 
+					un conjunto de instrucciónes dan diversas compensaciones entre el coste, el funcionamiento, 
+					el consumo de energía, el tamaño, el etc.
+				</p>
+				<p class = "sub">
+					Modos de Direccionamiento
+				</p>
+				<p class = "info">
+					Distintas formas que tiene la arquitectura para especificar la ubicación de
+					los operandos.<br>
+					Objetivos:<br>
+					- Reducir el número de bits para especificar un operando en memoria.
+					- Dar soporte a las estructuras de datos de alto nivel.<br>
+
+					Pueden ser:<br>
+					- Para datos, sobre los que opera la instrucción.
+					- Para instrucciones, especifica la dirección de la siguiente instrucción
+					a ejecutar (en instrucciones de control).<br>
+					Direccionamiento por registro.<br>
+					El campo de dirección especifica un registro donde está el operando.
+				</p>
+					<img class = "gif" src = "../Media/Img/diere.PNG">
+				<p class = "info">
+					Direccionamiento Inmediato.<br>
+					El operando está en la instrucción.
+				</p>
+					<img class = "gif" src = "../Media/Img/2.PNG">
+				<p class = "info">
+					Direccionamiento directo.<br>
+					El campo de dirección contiene la dirección efectiva del operando.
+				</p>
+					<img class = "gif" src = "../Media/Img/3.PNG">
+				<p class = "info">
+					Direccionamiento indirecto por memoria.<br>
+					El campo de direcciones contiene la dirección de una palabra donde está
+					la dirección del operando.
+				</p>
+					<img class = "gif" src = "../Media/Img/4.PNG">
+				<p class = "info">
+					Direccionamiento base + desplazamiento.<br>
+					Combina posibilidades del directo (facilidad de uso) y del indirecto por
+					registro (menos bits para especificar dirección). Habrá que especificar un
+					registro y un valor. La suma del contenido del registro y el valor es la dirección
+					del operando.
+				</p>
+					<img class = "gif" src = "../Media/Img/5.PNG">
+				<p class = "info">
+				
+				</p>
+				<p id = "Cuatro" class = "temas">
+					Casos de estudio de CPU Reales
+				</p>
+				<p class = "info">
+					I-8086: Los registros del procesador, se usan para contener los datos con que se está trabajando
+					puesto que el acceso a los registros es mucho más rápido que los accesos a memoria. Se pueden 
+					realizar operaciones aritméticas y lógicas, comparaciones, entre otras. Los modos del 8086 son 
+					indirectos por registro, indexados o directos por registro.<br>
+					Motorola 68000: El mismo direccionamiento lleva implícito el tipo de registro sobre el que trabaja 
+					(direcciones o datos). Está basado en dos bancos de 8 registros de 32 bits. Un banco es de datos (Dn)
+					y el otro de punteros (An). Además contiene un contador de programa de 32 bits y un registro de estado de 16 bits.<br>
+					80386: Para este microprocesador existe un modo nuevo que requiere un byte adicional denominado
+					SIB (escala, índice, base) que se añade al byte de operandos, es útil para direccionar elementos de 
+					vectores de longitudes diferentes en bucles. Es una alternativa a los modos autoindexados que esta máquina no soporta.<br>
+				</p>
+					<img class = "gif" src = "https://media.giphy.com/media/9YEpoKEGPZyVFfRuYm/giphy.gif">
+				
+		</div>
+		<div class = "redes">
+				<p id = "Redes" class = "reed">
+					Redes Sociales
+				</p>
+					<a class = "logos" href = "http://its.mx/"><img class = "logo" src = "../Media/Img/its.png"></a>	
+					<a class = "logos" href = "https://www.facebook.com/TecNMcampusSaltillo"><img class = "logos" src = "../Media/Img/logotipo-facebook.png"></a>	
+					<a class = "logos" href = "mailto:<nowiki>rodrigo.zavala.luna@gmail.com?subject=subject text""><img class = "logos" src = "../Media/Img/3-extensiones-para-ser-más-productivo-con-Gmail-00.jpg"></a>	
+				<p class = "reed">
+					Tel: 844 402 0840
+				</p>
+				<p class = "reed">
+					Estamos Ubicados en: 
+				</p>
+				<iframe class = "com" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1801.4509731896026!2d-100.99387639914474!3d25.441541505528942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86886d59eb5bc4d3%3A0x60771ba46d37358c!2sInstituto%20Tecnol%C3%B3gico%20de%20Saltillo!5e0!3m2!1ses-419!2smx!4v1653017148013!5m2!1ses-419!2smx" width="600" height="450" 
+				style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</body>
+</html>	
+	

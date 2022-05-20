@@ -1,0 +1,700 @@
+<!=Doctype HTML>
+	<!-- Es una pagina que tiene la finanlidad informativa, es un proyecto por parte de la Institución -->
+	<!-- En esta primera parte apareceran los temas de la unidad 1, tendra una presentacion agradable al usuario, sin dejar de ser forrmal -->
+	<!-- Autor: Rodrigo Zavala Luna -->
+<html>
+	<head>
+		<title>Unidad 3</title>
+		<link rel = "stylesheet" type = "text/css"
+			media = "screen" href = "../CSS/Style.css"/>
+		<meta charset=”utf-8″ /> 
+		<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″ />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Akshar&family=Bebas+Neue&family=Concert+One&family=Fredoka+One&family=Passion+One&family=Staatliches&display=swap" rel="stylesheet">
+	</head>
+	<!-- Empezamos con el cuerpo de nuestra pagina web. -->
+	<body>
+		<!-- Contiene nuestro titulo -->
+		<div class = "titUnidad1">
+			<p class = "titUnidad1">Arquitectura de Computadoras</p>
+		</div>
+		<!-- Contiene nuestra barra de navegacion de las unidades -->
+		<div class = "navegacion">
+			<table class = "unidades">
+				<tr>
+					<td><a href = "">Inicio</a></td>
+					<td><a href = "../Index.html">Unidad 1</a></td>
+					<td><a href = "Unidad2.html">Unidad 2</a></td>
+					<td><a href = "Unidad4.html">Unidad 4</a></td>
+				</tr>
+			</table>
+		</div><br>
+		<!-- Contiene nuestra tabla de navegacion de los Temas de la Unidad. -->
+		<div class = "subtemas">
+			<table class = "subtemas">
+			<thead>
+				<!==Tr son los renglones de la tabla, en este caso solo es 1 ==>
+				<tr>
+					<th>Temas Unidad 3</th>
+				</tr>
+			</thead>
+			<tr>
+				<!==La etiqueta a href, la uso para poder ir en la misma pagina a la zona donde se encuentre este titulo
+					se utilizan comillas y signo numerico, para identificarlo en el texto==>
+				<td><a href ="#Uno">Chips Set</a></td>
+			</tr>
+			<tr>
+				<td><a href ="#Dos">Aplicaciones</a></td>
+			</tr>
+			<tr>
+				<td><a href ="#Tres">Ambientes de Servicio</a></td>
+			</tr>
+			<tr>
+				<td><a href ="#Redes">Redes Sociales</a></td>
+			</tr>
+			</table>
+		</div><br>
+		<div class = "inicio">
+			<!-- Es un titulo, que indica en la unidad en la que estamos. -->
+			<p class = "unidad1">
+				Unidad 3
+			</p>
+			<!-- Es una introduccion del contenido de la unidad. -->
+			<p >
+			</p>
+			<iframe class = "com" src="https://www.youtube.com/embed/T7ww7nhSpuU" title="YouTube video player" frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div><br>
+		<div class = "informacion">
+			<p id = "Uno" class = "temas">
+					Chips Set
+			</p>
+			<p class = "info">
+				Un chipset es el conjunto de circuitos integrados diseñados con base
+				en la arquitectura de un procesador (en algunos casos, diseñados
+				como parte integral de esa arquitectura), permitiendo que ese tipo de
+				procesadores funcionen en una placa base. Sirven de puente de
+				comunicación con el resto de componentes de la placa, como son la
+				memoria, las tarjetas de expansión, los puertos USB, ratón, teclado,
+				etc.
+				Las placas base modernas suelen incluir dos integrados,
+				denominados puente norte y puente sur, y suelen ser los circuitos
+				integrados más grandes después de la GPU y el microprocesador.
+				Las últimas placa base carecen de puente norte, ya que los
+				procesadores de última generación lo llevan integrado.<br>
+			</p>
+				<img class = "imagen" src = "https://media.giphy.com/media/n6szplK2CnuJW/giphy.gif">
+			<p class = "info">
+				Funcionamiento<br>
+				El chipset es el que hace posible que la placa base funcione como
+				eje del sistema, dando soporte a varios componentes e
+				interconectándolos de forma que se comuniquen entre ellos haciendo
+				uso de diversos buses. Es uno de los pocos elementos que tiene
+				conexión directa con el procesador, gestiona la mayor parte de la
+				información que entra y sale por el bus principal del procesador, del
+				sistema de vídeo y muchas veces de la memoria RAM.
+				En el caso de los computadores PC, es un esquema de arquitectura
+				abierta que establece modularidad: el chipset debe tener interfaces
+				estándar para los demás dispositivos. Esto permite escoger entre
+				varios dispositivos estándar, por ejemplo, en el caso de los buses de
+				expansión, algunas tarjetas madre pueden tener bus PCI-Express y
+				soportar diversos tipos de tarjetas de distintos anchos de bus (1x, 8x,
+				16x).<br><br>
+				Puente norte: northbridge, MCH (memory controller hub) o
+				GMCH (graphic MCH), se usa como puente de enlace entre el
+				microprocesador y la memoria. Controla las funciones de acceso
+				hacia y entre el microprocesador, la memoria RAM, el puerto
+				gráfico AGP o el PCI-Express de gráficos, y las comunicaciones con
+				el puente sur. Al principio tenía también el control de PCI, pero esa
+				funcionalidad ha pasado al puente sur.<br><br>
+				Puente sur: southbridge o ICH (input controller hub), controla los
+				dispositivos asociados como son la controladora de discos IDE,
+				puertos USB, FireWire, SATA, RAID, ranuras PCI, ranura AMR,
+				ranura CNR, puertos infrarrojos, disquetera, LAN, PCI-Express 1x y
+				una larga lista de todos los elementos que podamos imaginar
+				integrados en la placa madre. Es el encargado de comunicar el
+				procesador con el resto de los periféricos.
+			</p>
+				<img class = "gif" src = "../Media/Img/6.PNG">
+			<p class = "info" >
+			
+			</p>
+			<p class = "sub">
+				Unidad Central de Procesamiento
+			</p>
+			<p class = "info">
+				La unidad central de procesamiento (siglas en inglés Central
+				Processing Unit) es el hardware dentro de una computadora u otros
+				dispositivos programables. Su trabajo es interpretar las instrucciones
+				de un programa informático mediante la realización de las
+				operaciones básicas aritméticas, lógicas y externas (provenientes de
+				la unidad de entrada/salida). Su diseño y avance ha variado
+				notablemente desde su creación, aumentando su eficiencia y
+				potencia, y reduciendo aspectos como el consumo de energía y el
+				costo.<br>
+				Una computadora puede contener más de una CPU
+				(multiprocesamiento). En la actualidad, los microprocesadores están
+				constituidos por un único circuito integrado (chip) aunque existen
+				los procesadores multinúcleo (varias CPU en un solo circuito
+				integrado). Un circuito integrado que contiene una CPU también
+				puede contener los dispositivos periféricos, y otros componentes de
+				un sistema informático; similar a un microcontrolador (menos
+				potente en RAM) se le denomina sistema en un chip (SoC).<br><br>
+				Los componentes de la CPU son:<br>
+				 Unidad aritmético lógica (ALU): realiza operaciones
+				aritméticas y lógicas.<br>
+				 Unidad de control (CU): dirige el tráfico de información
+				entre los registros de la CPU y conecta con la ALU las
+				instrucciones extraídas de la memoria.<br>
+				 Registros internos: no accesibles (de instrucción, de bus de
+				datos y bus de dirección) y accesibles de uso específico
+				(contador programa, puntero pila, acumulador, flags, etc.) o de
+				uso general.<br>
+			</p>
+				<img class = "gif" src = "../Media/Img/9.jpg">
+				<img class = "gifs" src = "https://media.giphy.com/media/Wt67TflOnf5WZStYcK/giphy-downsized-large.gif">
+			<p class = "info">
+			
+			</p>
+			<p class = "sub">
+				Controlador de Bus
+			</p>
+			<p class = "info">
+				El controlador del bus se encarga de la frecuencia de funcionamiento
+				y las señales de sincronismo, temporización y control. Está ubicado
+				en un chip en la placa base.
+				El bus es la vía a través de la que se van a transmitir y recibir todas
+				las comunicaciones, tanto internas como externas, del sistema
+				informático. El bus es solamente un dispositivo de transferencia de
+				información entre los componentes conectados a él, no almacena
+				información alguna en ningún momento. Los datos, en forma de
+				señal eléctrica, sólo permanecen en el bus el tiempo que necesitan en
+				recorrer la distancia entre los dos componentes implicados en la
+				transferencia.
+			</p>
+				<img class = "gif" src = "../Media/Img/10.PNG">
+			<p class = "info">
+			
+			</p>
+			<p class = "sub">
+				Puertas de Entrada Salida E/S
+			</p>
+			<p class = "info">
+				Un puerto de E/S es un enchufe en una computadora al que se
+				conecta un cable. El puerto conecta la CPU a un dispositivo
+				periférico a través de una interfaz de hardware o a la red a través de
+				una interfaz de red.<br>
+				En otras palabras, un puerto de E/S es un punto de conexión que
+				actúa como interfaz entre la computadora y dispositivos externos
+				como mouse, impresora, módem, etc. Estos son de dos tipos:<br>
+				1. Puerto interno: conecta la placa base a dispositivos internos
+				como unidad de disco duro, unidad de CD, módem interno,
+				etc.<br>
+				2. Puerto externo: conecta la placa base a dispositivos externos
+				como módem, mouse, impresora, unidades flash, etc.<br>
+				Puerto serial: los puertos seriales transmiten datos secuencialmente
+				un bit a la vez. Por lo tanto, solo necesitan un cable para transmitir 8
+				bits. Sin embargo, también los hace más lentos. Los puertos serie
+				suelen ser conectores macho de 9 o 25 pines. También se conocen
+				como puertos COM (comunicación) o puertos RS323C.<br><br>
+				Puerto paralelo: los puertos paralelos pueden enviar o recibir 8 bits
+				o 1 byte a la vez. Los puertos paralelos vienen en forma de pines
+				hembra de 25 pines y se utilizan para conectar impresoras,
+				escáneres, unidades de disco duro externas, etc.<br><br>
+				Puerto USB: USB son las siglas de Universal Serial Bus. Es el
+				estándar de la industria para la conexión de datos digitales de corta
+				distancia. El puerto USB es un puerto estandarizado para conectar
+				una variedad de dispositivos como impresora, cámara, teclado,
+				altavoz, etc.<br><br>
+				Puerto PS/2: PS/2 son las siglas de Personal System/2. Es un puerto
+				estándar hembra de 6 pines que se conecta al cable mini-DIN
+				macho. IBM introdujo PS/2 para conectar el mouse y el teclado a las
+				computadoras personales. Este puerto ahora está casi obsoleto,
+				aunque algunos sistemas compatibles con IBM pueden tener este
+				puerto.<br><br>
+				Puerto de infrarrojos: el puerto de infrarrojos es un puerto que
+				permite el intercambio inalámbrico de datos en un radio de 10 m.
+				Dos dispositivos que tienen puertos infrarrojos se colocan uno frente
+				al otro para que los haces de luces infrarrojas se puedan utilizar para
+				compartir datos.<br><br>
+				Puerto Bluetooth: Bluetooth es una especificación de
+				telecomunicaciones que facilita la conexión inalámbrica entre
+				teléfonos, computadoras y otros dispositivos digitales a través de
+				una conexión inalámbrica de corto alcance. El puerto Bluetooth
+				permite la sincronización entre dispositivos habilitados para
+				Bluetooth.<br><br>
+				Puerto FireWire: FireWire es el estándar de interfaz de Apple
+				Computer para permitir la comunicación de alta velocidad mediante
+				bus serie. También se llama IEEE 1394 y se usa principalmente para
+				dispositivos de audio y video como videocámaras digitales.
+			</p>
+				<img class = "gif" src = "../Media/Img/11.PNG">
+			<p class = "info">
+			
+			</p>
+			<p class = "sub">
+				Controlador de Interrupciones
+			</p>
+			<p class = "info">
+				El controlador de interrupciones es un módulo que tiene por función
+				gestionar las interrupciones de entrada/salida para el procesador.
+				Esto ahorra diseñar lógica y añadir patitas al procesador. También
+				proporciona flexibilidad porque permite idealmente, gestionar un
+				número ilimitado señales de interrupción (favoreciendo la expansión
+				del sistema de entrada/salida).
+				El controlador recibe el conjunto de señales de interrupción
+				procedentes de los dispositivos, toma la decisión de cuál es la más
+				prioritaria, y envía una única señal al procesador. La respuesta del
+				procesador es transmitida al dispositivo y el propio controlador se
+				encarga de depositar en el bus el vector de la interrupción.
+				En un sistema basado en la familia de procesadores 8086, esta labor
+				la realiza el chip 8259. Este chip admite hasta 8 señales de
+				interrupción, pero también admite ser configurado en cascada (sus
+				entradas proceden a su vez de otro controlador) de modo que un
+				conjunto de controladores 8259 pueden gestionar hasta un máximo
+				de 8 x 8 señales de interrupción procedentes de otros tantos
+				dispositivos de entrada/salida.<br><br>
+				Ciclo de reconocimiento de interrupción.<br>
+				1. Tras la activación de una línea IR, el controlador activa la
+				salida INTR señalándole a la CPU la existencia de una
+				interrupción activada.<br>
+				2. Al recibir la señal, el procesador da un pulso en su salida
+				INTA indicando que comienza un ciclo de reconocimiento de
+				interrupción.<br>
+				3. Al recibir el controlador el pulso por su entrada INTA
+				comienza a arbitrar las interrupciones recibidas y selecciona la
+				más prioritaria.<br>
+				4. Se emite un segundo pulso por la línea INTA del procesador (o
+				controlador de bus) que utiliza el controlador para depositar en
+				el bus el vector correspondiente a la interrupción de mayor
+				prioridad.<br>
+				5. El procesador obtiene la dirección de la rutina de interrupción
+				a partir de este dato y salta a ella. Almacena el registro de flags
+				y la dirección de retorno, deshabilita las interrupciones y
+				comienza a ejecutar la rutina.
+			</p>
+				<img class = "gif" src = "../Media/Img/12.PNG">
+			<p class = "info">
+			
+			</p>
+			<p class = "sub">
+				Controlador de Acceso Directo a Memoria
+			</p>
+			<p class = "info">
+				El mecanismo de acceso directo a memoria está controlado por un
+				chip específico, el DMAC ("DMA Controller"), que permite realizar
+				estos intercambios sin apenas intervención del procesador. En los
+				XT estaba integrado en un chip 8237A que proporcionaba 4 canales
+				de 8 bits (puede mover solo 1 Byte cada vez); sus direcciones de
+				puerto son 000–00Fh. Posteriormente en los AT se instalaron dos de
+				estos integrados y las correspondientes líneas auxiliares en el bus de
+				control.<br>
+				En contra de lo que podría parecer, el resultado no fue disponer de 8
+				canales, porque el segundo controlador se colgó en “Cascada” de la
+				línea 4 del primero. Los canales del segundo DMAC está asignado a
+				las direcciones 0C0–0DFh y son de 16 bits.
+				Pueden mover 2 Bytes (de posiciones contiguas) cada vez. Cada
+				canal tiene asignada una prioridad para el caso de recibirse
+				simultáneamente varias peticiones (los números más bajos tienen
+				prioridad más alta).<br>
+				Pueden ser utilizados por cualquier dispositivo que los necesite
+				(suponiendo naturalmente que esté diseñado para soportar este modo
+				de operación). Cada sistema los asigna de forma arbitraria, pero hay
+				algunos cuya asignación es estándar.
+			</p>
+				<img class = "gif" src = "../Media/Img/13.PNG">
+			<p class = "info">
+			
+			</p>
+			<p class = "sub">
+				Circuitos de Temporalización
+			</p>
+			<p class = "info">
+				El circuito electrónico que más se utiliza tanto en la industria como
+				en circuitería comercial, es el circuito temporizador o de retardo,
+				dentro de la categoría de temporizadores, cabe destacar el más
+				económico y también menos preciso consistente en una resistencia y
+				un condensador, a partir de aquí se puede contar con un sinfín de
+				opciones.<br><br>
+				Cuando necesitamos un temporizador, lo primero que debemos
+				considerar es la necesidad de precisión en el tiempo, base muy
+				importante para determinar los elementos que vamos a utilizar en su
+				concepción y diseño.<br><br>
+				Un temporizador básicamente consiste en un elemento que se activa
+				o desactiva después de un tiempo preestablecido. De esta manera
+				podemos determinar el parámetro relacionado con el tiempo que ha
+				de transcurrir para que el circuito susceptible de temporizarse, se
+				detenga o empiece a funcionar o simplemente cierre un contacto o lo
+				abra.<br><br>
+				Se encuentra en la placa base de la PC y que es capaz de mantener
+				una cuenta de tiempo basada en el reloj de la computadora. Puede
+				usarse para calcular el intervalo entre dos mediciones de tiempo o
+				para generar pausas. Este chip tiene la capacidad de realizar
+				diferentes funciones de conteo. Es útil para medir el tiempo que dura
+				cierto proceso o para mantener actualizadas la hora del día y la fecha
+				si se deja la PC conectada y encendida.
+			</p>
+				<img class = "imagen" src = "../Media/Img/15.PNG">
+			<p class = "info">
+			
+			</p>
+			<p class = "sub">
+				Circuito de Control
+			</p>
+			<p class = "info">
+				Es una red secuencial que acepta un código que define la operación
+				que se va a ejecutar y luego prosigue a través de una secuencia de
+				estados, generando una correspondiente secuencia de señales
+				control.
+				Estas señales de control incluyen el control de lectura-escritura y
+				señales de dirección de memoria válida en el bus de control del
+				sistema. Otras señales generadas por el controlador se conectan a la
+				ALU y a los registros internos del procesador para regular el flujo de
+				información en el procesador y desde los buses de dirección y de
+				datos del sistema.
+			</p>
+				<img class = "gif" src = "../Media/Img/16.PNG">
+			<p class = "info">
+			
+			</p>
+			<p class = "sub">
+				Controladores de Video
+			</p>
+			<p class = "info">
+				La tarjeta de video, (también llamada controlador de video), es un
+				componente electrónico requerido para generar una señal de video
+				que se manda a una pantalla de video por medio de un cable. La
+				tarjeta de video se encuentra normalmente en la placa de sistema de
+				la computadora o en una placa de expansión. La tarjeta gráfica reúne
+				toda la información que debe visualizarse en pantalla y actúa como
+				interfaz entre el procesador y el monitor; la información es enviada a
+				éste por la placa luego de haberla recibido a través del sistema de
+				buses.<br>
+				Una tarjeta gráfica se compone, básicamente, de un controlador de
+				video, de la memoria de pantalla o RAM video, y el generador de
+				caracteres, y en la actualidad también poseen un acelerador de
+				gráficos. El controlador de video va leyendo a intervalos la
+				información almacenada en la RAM video y la transfiere al monitor
+				en forma de señal de video; el número de veces por segundo que el
+				contenido de la RAM video es leído y transmitido al monitor en
+				forma de señal de video se conoce como frecuencia de refresco de la
+				pantalla.
+			</p>
+				<img class = "gif" src = "../Media/Img/17.PNG">				
+				<img class = "gifs" src = "https://media.giphy.com/media/ejkT8c3xaah7wppBiW/giphy.gif">				
+			<p class = "info">
+				Tipos de placas de videos.<br>
+				Adaptador de Pantalla Monocromo (MDA): los primeros PC solo
+				visualizaban textos. El MDA contaba con 4KB de memoria de video
+				RAM que le permitía mostrar 25 líneas de 80 caracteres cada una
+				con una resolución de 14x9 puntos por carácter.<br><br>
+				Tarjeta gráfica Hércules: con esta tarjeta se podía visualizar
+				gráficos y textos simultáneamente. En modo texto, soportaba una
+				resolución de 80x25 puntos. En tanto que en los gráficos lo hacía
+				con 720x350 puntos, dicha tarjeta servía sólo para gráficos de un
+				solo color. La tarjeta Hércules tenía una capacidad total de 64k de
+				memoria video RAM. Poseía una frecuencia de refresco de la
+				pantalla de 50HZ.<br><br>
+				Color Graphics Adapter (CGA): la CGA utiliza el mismo chip que
+				la Hércules y aporta resoluciones y colores distintos. Los tres
+				colores primarios se combinan digitalmente formando un máximo de
+				ocho colores distintos. La resolución varía considerablemente según
+				el modo de gráficos que se esté utilizando.<br><br>
+
+				La tarjeta EGA: Enchanced Graphics Adapter (EGA). Se trata de
+				una tarjeta gráfica superior a la CGA. En el modo texto ofrece una
+				resolución de 14x18 puntos y en el modo gráfico dos resoluciones
+				diferentes de 640x200 y 640x350 a 4 bits, lo que da como resultado
+				una paleta de 16 colores, siempre y cuando la tarjeta esté equipada
+				con 256KB de memoria de video RAM.<br><br>
+				La tarjeta VGA: la Video Graphics Adapter (VGA) significó la
+				aparición de un nuevo estándar del mercado. Esta tarjeta ofrece una
+				paleta de 256 colores, dando como resultado imágenes de colores
+				mucho más vivos. Las primeras VGA contaban con 256KB de
+				memoria y solo podían alcanzar una resolución de 320x200 puntos
+				con la cantidad de colores mencionados anteriormente.<br><br>
+				La tarjeta SVGA: la tarjeta SVGA (Super Video Graphics
+				Adapter) contiene conjuntos de chips de uso especial, y más
+				memoria, lo que aumenta la cantidad de colores y la resolución.<br><br>
+				El acelerador gráfico: el acelerador gráfico se encarga de realizar
+				una serie de funciones relacionadas con la presentación de gráficos
+				en la pantalla, que, de otro modo, tendría que realizar el procesador.
+				De esta manera, le quita tareas de encima a este último, y así se
+				puede dedicar casi exclusivamente al proceso de datos.<br><br>
+				El coprocesador gráfico: posteriormente, para lograr una mayor
+				velocidad se comenzaron a instalar en las tarjetas de video otros
+				circuitos especializados en el proceso de comandos gráficos,
+				llamados coprocesadores gráficos. Se encuentran especializados en
+				la ejecución de una serie de instrucciones específicas de generación
+				de gráficos.<br><br>
+
+				Aceleradores gráficos 3D: los gráficos en tres dimensiones son una
+				representación gráfica de una escena o un objeto a lo largo de tres
+				ejes de referencia, X, Y, Z, que marcan el ancho, el alto y la
+				profundidad de ese gráfico. Para manejar un gráfico tridimensional,
+				éste se divide en una serie de puntos o vértices, en forma de
+				coordenadas, que se almacenan en la memoria RAM.
+			</p>
+				<img class = "gifs" src = "https://media.giphy.com/media/UuXwoAzFRNmhO5K0bc/giphy.gif">
+				<img class = "imagen" src = "https://media.giphy.com/media/MFZqWIA8HyxxyeY3XL/giphy.gif">
+			<p class = "info">
+				
+			</p>
+			<p id = "Dos" class = "temas">
+				Aplicaciones
+			</p>
+			<p class = "info">
+				Las computadoras electrónicas modernas son una herramienta esencial en muchas áreas: industria, 
+				gobierno, ciencia, educación,…, en realidad en casi todos los campos de nuestras vidas.<br>
+
+				El papel que juegan los dispositivos periféricos de la computadora es esencial; sin tales 
+				dispositivos ésta no sería totalmente útil. A través de los dispositivos periféricos podemos 
+				introducir a la computadora datos que nos sea útiles para la resolución de algún problema y por 
+				consiguiente obtener el resultado de dichas operaciones, es decir; poder comunicarnos con la computadora.<br>
+
+				La computadora necesita de entradas para poder generar salidas y éstas se dan a través de dos tipos 
+				de dispositivos periféricos existentes:<br>
+
+				Dispositivos periféricos de entrada.<br>
+				Dispositivos periféricos de salida.<br>
+
+				La serie MVP es la familia más versátil de fuentes de alimentación de potencia media que utiliza 
+				componentes magnéticos de SMD y convertidos DC-DC internos, combinados con módulos PFC, que pueden
+				ser configurables desde 1 hasta 10 tensiones de salida con valores entre 2 y 60 v. tiene todas las 
+				homologaciones de seguridad necesarias y es un producto marcado “CE”.
+			</p>
+			<p class = "sub">
+				Entrada/Salida
+			</p>
+			<p class = "info">
+				Tanto en la E/S programada como la basada en interrupciones, la UCP debe encargarse de la transferencia 
+				de datos una vez que sabe que hay datos disponibles en el controlador. Una mejora importante para incrementar 
+				la concurrencia entre la UCP y la E/S consiste en que el controlador del dispositivo se pueda encargar de efectuar 
+				la transferencia de datos, liberando de este trabajo a la UCP, e interrumpir a la UCP sólo cuando haya terminado la 
+				operación completa de E/S. Esta técnica se denomina acceso directo a memoria (DMA, Direct Memory Access).<br><br>
+				Cuando se utiliza acceso directo a memoria, es el controlador el que se encarga directamente de transferir los 
+				datos entre el periférico y la memoria principal, sin requerir intervención alguna por parte del procesador. 
+				Esta técnica funciona de la siguiente manera: cuando el procesador desea que se imprima un bloque de datos, 
+				envía una orden al controlador indicándole la siguiente información:<br>
+				Tipo de operación: lectura o escritura.<br>
+				Periférico involucrado en la operación.<br>
+				La dirección de memoria desde la que se va a leer o a la que va a escribir directamente con el controlador de dispositivo (dirección).<br>
+				El número de bytes a transferir (contador).<br>
+				Funciones.<br>
+				Un periférico de E/S es el que se utiliza para ingresar (E) datos a la
+				computadora, y luego de ser procesados por la unidad central de
+				procesamiento (CPU), genera la salida (S) de información. Su
+				función es leer o grabar, permanente o virtualmente, todo aquello
+				que se haga con la computadora, para que pueda ser utilizado por los
+				usuarios u otros sistemas.
+			</p>
+				<img class = "gif" src = "../Media/Img/18.PNG">	
+			<p class = "info">
+				
+			</p>
+			<p class = "sub">
+				Almacenamiento
+			</p>
+			<p class = "info">
+				Conforme la tecnología avanza, más datos se van generando, por lo
+				que es necesario contar con un almacenamiento eficiente para poder
+				guardar toda esa información y acceder a ellos. El almacenamiento
+				de datos ha cambiado mucho, desde los sistemas de disco, que muy
+				probablemente se sigan utilizando, pero de una forma más digital:
+				hoy se encuentran conectados a una red y son definidos por un
+				software.<br>
+				El almacenamiento de datos tiene un proceso a través del uso de la
+				tecnología, ésta se aplica para organizar, distribuir y archivar
+				información con los bytes y los bits que son parte de los sistemas de
+				los que la gente depende día con día, llega a ser tan importante en
+				todos los servicios: desde una simple aplicación, contenido
+				multimedia, direcciones, contactos, hasta protocolos de red y todo lo
+				que tiene que ver con el mundo digital.
+			</p>
+				<img class = "gif" src = "https://media.giphy.com/media/qsoAlSnoR99ryHNXJi/giphy.gif">	
+			<p class = "info">
+				Memoria contra almacenamiento.<br>
+				Generalmente, los usuarios de computadoras tienden a confundir los
+				términos “memoria” y “almacenamiento” pues los emplean de
+				manera indistinta, utilizándolos para referirse a la RAM (o memoria
+				principal) o al disco duro. Desde el punto de vista técnico, ambos
+				términos son prácticamente iguales pues tanto la RAM como el
+				disco duro se utilizan para almacenar información, claro está, de
+				formas distintas y para propósitos diferentes.<br><br>
+				Mientras la memoria se refiere a la ubicación de los datos a corto
+				plazo, el almacenamiento es el componente de su computadora que
+				le permite almacenar y acceder a datos a largo plazo. Usualmente, el
+				almacenamiento se da en forma de una unidad de estado sólido o un
+				disco duro. El almacenamiento le permite acceder y almacenar sus
+				aplicaciones, sistema operativo y archivos por un tiempo indefinido.
+			</p>
+				<img class = "gif" src = "../Media/Img/19.PNG">
+			<p class = "info">
+				Almacenamiento en sistemas informáticos.<br>
+				Un dispositivo de almacenamiento es un hardware que se utiliza
+				principalmente para almacenar datos. Cada computadora de
+				escritorio, computadora portátil, tablet y smartphone tendrán algún
+				tipo de dispositivo de almacenamiento en su interior y también
+				puedes obtener unidades de almacenamiento externo independientes
+				que se pueden utilizar en varios dispositivos.<br>
+				 Unidades de discos duros (HDD).<br>
+				 Discos de estado sólido (SSD).<br><br>
+				Dispositivos de almacenamiento externo.<br>
+				Además de los medios de almacenamiento contenidos en una
+				computadora, también hay dispositivos de almacenamiento digital
+				que son externos a las computadoras. Se utilizan comúnmente para
+				ampliar la capacidad de almacenamiento cuando una computadora
+				se queda sin espacio, para permitir una mayor portabilidad y para
+				facilitar la transferencia de archivos de un dispositivo a otro.<br><br>
+				Almacenamiento en la nube.<br>
+				Aunque no es exactamente un dispositivo en sí mismo, el
+				almacenamiento en la nube es el tipo de almacenamiento más nuevo
+				y versátil para las computadoras. “La nube” no es un lugar u objeto,
+				sino un enorme conjunto de servidores alojados en centros de datos
+				de todo el mundo. Cuando guardas un documento en la nube, lo
+				estás almacenando en estos servidores.
+				Debido a que todo se almacena en línea, el almacenamiento en la
+				nube no utiliza ningún almacenamiento secundario de la
+				computadora, lo que te permite ahorrar espacio.	
+			</p>
+				<img class = "gif" src = "../Media/Img/20.PNG">
+				<img class = "gif" src = "https://media.giphy.com/media/LJJhmsWx35N84B3s4Z/giphy.gif">
+			<p >
+			
+			</p>
+			<p class = "sub">
+				Fuente de Alimentación
+			</p>
+			<p class = "info">
+				Una fuente de alimentación es un componente esencial de cualquier
+				dispositivo electrónico ya que es ella quien se encarga de darle vida.
+				En cualquier equipo, por pequeño que sea, siempre hay una fuente
+				de alimentación, aunque no la veamos.<br>
+				En los ordenadores de sobremesa, la fuente de alimentación se
+				encuentra generalmente en la parte inferior de la torre (en cajas
+				antiguas se encuentra en la superior), y muchas cajas de ordenador
+				optan por incorporar un compartimento para separarla del resto y ya
+				de paso ocultar todos los cables salientes de ella.<br>
+				existen fuentes de alimentación modulares y semi-modulares, de
+				manera que los cables son total o completamente desmontables. De
+				esta manera, una fuente de alimentación modular mejora el flujo de
+				aire del PC ya que solo cuenta con los cables que se necesitan.<br>
+				Un cable de 24 pines ATX es el que va a la placa base, para la CPU
+				podemos encontrar cables de hasta 8+8 pines (se conocen como
+				conectores de 12 V EPS) y para las tarjetas gráficas se utilizan
+				conectores PCIe en configuraciones de hasta 8+8+8+8 para las
+				gráficas más potentes, aunque habitualmente se usan 2 o 3 de ellos
+				únicamente. Con las NVIDIA RTX 30 Founders Edition, el
+				fabricante ha habilitado un nuevo conector molex de 12 pines, pero
+				traen el correspondiente adaptador así que no hay problemas de
+				incompatibilidad.
+			</p>
+				<img class = "gif" src = "https://media.giphy.com/media/j3KdvtlipStJ79G5TQ/giphy.gif">
+				<img class = "gif" src = "https://media.giphy.com/media/kf3btPN5Fl1Zuk96of/giphy.gif">
+				
+			<p class = "info">
+				Las fuentes de alimentación proporcionan energía a los SSD y HDD
+				mediante conectores SATA de energía, y a los ventiladores mediante
+				conectores molex de 3 o 4 pines o bien mediante la propia placa
+				base (que es alimentada con el conector de 24 pines ATX). De esta
+				manera, todos los componentes reciben energía de la fuente de
+				alimentación. Además, las fuentes protegen a todos los componentes
+				mediante una gran cantidad de sistemas dedicados a ello.<br><br>
+				Existen fuentes de alimentación que no requieren de ventilación, por
+				lo que su refrigeración es completamente pasiva. Estos modelos
+				suelen ser fuentes de medio-bajo voltaje con una alta eficiencia, para
+				que el calor generado sea menor y se pueda llevar a cabo su
+				disipación sin usar ni un solo ventilador acoplado a la fuente, con los
+				que existan en la caja serán más que suficiente.
+			</p>
+			<p id = "Tres" class = "temas">
+				Ambientes de Servicio
+			</p>
+			<p class = "info">
+				El negocio de proveer servicios de datos es mucho más complejo
+				que la forma en la que se dan los tradicionales servicios, los
+				primeros requieren de nuevos conocimientos y modelos de negocio,
+				que con frecuencia se termina involucrando o necesitando la
+				colaboración de terceras empresas. Por lo que se hace necesario que
+				los operadores tradicionales transformen su negocio para ofrecer los
+				servicios de datos con los niveles de servicio que el mercado exige.
+			</p>
+			<p class = "sub">
+				Negocios
+			</p>
+			<p class = "info">
+				Definitivamente, la tecnología en general ha sido la causa principal
+				y la acción más directa para la transformación del trabajo de las
+				organizaciones en la posguerra del siglo XX. Tanto los bienes de
+				capital "duros" (computadores, teléfonos, videos, facsímiles,
+				grabadoras, etc.), como los programas y sistemas de información y
+				comunicación en general, han incrementado enormemente la
+				productividad y eficiencia de las organizaciones. Tenemos como
+				ejemplos los siguientes: bases de datos en redes de todo orden y
+				topología, sistemas de reservaciones en aerolíneas, sistemas de
+				contabilidad y nóminas, archivos clínicos en centros de salud,
+				sistemas de conmutación electrónica y un sin número de otras
+				aplicaciones a procesos administrativos.
+			</p>
+				<img class = "gif" src = "https://media.giphy.com/media/YT4fOJ9tAJTOprGY92/giphy.gif">
+				<img class = "gif" src = "https://media.giphy.com/media/ItorJEZD6pOmL2fP8i/giphy-downsized-large.gif">
+			<p>
+			
+			</p>
+			<p class = "sub">
+				Industria
+			</p>
+			<p class = "info">
+				La industrialización de los servicios de tecnología de información va
+				a redefinir el mercado en términos de como las organizaciones
+				evalúan, compran y seleccionan los servicios y como los vendedores
+				desarrollan y establecen precios de los servicios.<br>
+				Para lograr esta estandarización, se requiere un enfoque hacia las
+				soluciones genéricas y esto debe ser responsabilidad de los
+				proveedores, que deben de desarrollar, operar y administrar el
+				resultado de estos genéricos de TI.<br>
+				Aunque los servicios de TI están en proceso de madurez, la madurez
+				de la industria se ha incrementado en aspectos evidentes, como la
+				forma en que los servicios son implementados y administrados.
+			</p>
+				<img class = "gifs" src = "https://media.giphy.com/media/ueCRGudtkirW5M3yQo/giphy.gif">
+				<img class = "gif" src = "https://media.giphy.com/media/XGZw0wN1sGRnHtpRcf/giphy.gif">
+			<p>
+			
+			</p>
+			<p class = "sub">
+				Comercio Eléctrinico
+			</p>
+			<p class = "info">
+				El desarrollo de estas tecnologías y de las telecomunicaciones ha
+				hecho que los intercambios de datos crezcan a niveles
+				extraordinarios, simplificándose cada vez más y creando nuevas
+				formas de comercio, y en este marco se desarrolla el Comercio
+				Electrónico.<br>
+				Se considera “Comercio Electrónico” al conjunto de aquellas
+				transacciones comerciales y financieras realizadas a través del
+				procesamiento y la transmisión de información, incluyendo texto,
+				sonido e imagen.
+			</p>
+				<img class = "gifs" src = "https://media.giphy.com/media/5wG597QP1fjG7xIfte/giphy.gif">
+				<img class = "gif" src = "https://media.giphy.com/media/euwK9JScEnZkHOnfhS/giphy.gif">
+		</div>
+		<div class = "redes">
+				<p id = "Redes" class = "reed">
+					Redes Sociales
+				</p>
+					<a class = "logos" href = "http://its.mx/"><img class = "logo" src = "../Media/Img/its.png"></a>	
+					<a class = "logos" href = "https://www.facebook.com/TecNMcampusSaltillo"><img class = "logos" src = "../Media/Img/logotipo-facebook.png"></a>	
+					<a class = "logos" href = "mailto:<nowiki>rodrigo.zavala.luna@gmail.com?subject=subject text""><img class = "logos" src = "../Media/Img/3-extensiones-para-ser-más-productivo-con-Gmail-00.jpg"></a>	
+				<p class = "reed">
+					Tel: 844 402 0840
+				</p>
+				<p class = "reed">
+					Estamos Ubicados en: 
+				</p>
+				<iframe class = "com" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1801.4509731896026!2d-100.99387639914474!3d25.441541505528942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86886d59eb5bc4d3%3A0x60771ba46d37358c!2sInstituto%20Tecnol%C3%B3gico%20de%20Saltillo!5e0!3m2!1ses-419!2smx!4v1653017148013!5m2!1ses-419!2smx" width="600" height="450" 
+				style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</body>
+</html>	

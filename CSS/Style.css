@@ -1,0 +1,184 @@
+/* Es un css, que dara forma a cada una de las paginas, tendra sus respectivas etiquetas */
+/* Autor: Rodrigo Zavala Luna */
+body{
+	background-image: url("../Media/Img/28255.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+div.titUnidad1{
+	margin: auto;
+}
+p.titUnidad1{
+	text-align: center;
+	color:#6CA3ED;
+	font-size: 40pt;
+	font-family: 'Fredoka One', cursive;
+}
+div.navegacion{
+	position: sticky;
+	top: 0;
+	margin:auto;
+	margin-top: 0;
+	width: 100%;
+	/* outline: solid 5px; */
+}
+table.unidades{
+	margin:auto;
+	width: 60%;
+	background-color:#40C5EF;
+	text-align: center;
+	
+}
+/*Es para todo el contenido de la tabla, a excepcion de la cabeza, asignamos y damos estilos*/
+th,td{
+	font-family: 'Passion One', cursive;
+	font-size: 20pt;
+	padding: 10px;
+}
+/*Hace que cambie de color cuando nos posisionamos en el contenido, pero le estamos deciendo que solo a los td*/
+tr:hover td{
+	background-color: #AA19B1;
+	color: white;
+}
+div.subtemas{
+	float: left;
+	width: 100px;
+	display:block;
+	text-align:left;
+	margin-left: 20px;
+}
+table.subtemas{
+	margin:auto;
+	width: 280px;
+	background-color:#6060ED;
+	text-align: center;
+	opacity: 70%;
+}
+/*Es la cabeza de la tabla, en donde le damos un formato, de letras y de color, es nuestro diseño de la cabeza de la tabla*/
+thead{
+	font-family:'Concert One', cursive;
+	font-size: 26pt;
+	background-color:#C993FA;
+	color:black;
+}
+/*Esta parte es para darle estilo a la referencia del documento, le damos estilo*/
+a{
+	text-decoration:none;
+	color:black;
+}
+a.logos{
+	text-decoration:none;
+	
+}
+a.logos:hover{
+	
+	
+}
+/*Es para cambiar el color cuando seleccionamos el texto*/
+a:hover{
+	background-color: #AA19B1;
+	color: white;
+}
+p.unidad1{
+	text-align:center;
+	margin: auto;
+	font-family: 'Fredoka One', cursive;
+	font-size: 36pt;
+	color:#17A4E2;
+}
+.introduccion{
+	color: white;
+	font-family: 'Staatliches', cursive;
+	font-size: 20pt;
+	text-align: left;
+	padding: 20px;
+}
+p.temas{
+	text-align:center;
+	font-size: 40pt;
+	margin:auto;
+	font-family: 'Fredoka One', cursive;
+	color:#6CA3ED;
+}
+p.sub{
+	text-align:left;
+	margin-left: 20px;
+	font-size: 36pt;
+	font-family: 'Passion One', cursive;
+	color:#17A4E2;
+}
+p.info{
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 26pt;
+	color: white;
+	font-family: 'Passion One', cursive;
+}
+img.gif{
+	width: 400px;
+	height: 300px;
+	margin-left: 20px;
+	
+}
+img.gifs{
+	width: 500px;
+	height: 200px;
+	margin-right: 20px;
+	float: right;
+	
+}
+img.imagen{
+	width: 500px;
+	height: 200px;
+	margin-left: 20px;
+	
+}
+div.inicio{
+	width: 60%;
+	margin:auto;
+	/* position: relative; */
+	
+}
+div.informacion{
+	width: 90%;
+	max-width: 1160px;
+	margin: 0 auto;
+	/* position: relative; */
+	
+}
+.redes{
+	width: 95%;
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 30px;
+	/* outline:solid 5px; */
+}
+img.logo{
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	margin-left	: 28%;
+}
+img.logos{
+	width: 120px;
+	height: 80px;
+	margin: 0 auto;
+	margin-left	: 30px;
+}
+p.reed{
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-size: 20pt;
+	color: #40C5EF;
+	padding: 10px;
+}
+.com{
+	width: 60%;
+	height: 400px;
+	/* margin: auto; */
+	padding: auto;
+	margin-left: 20%;
+}
